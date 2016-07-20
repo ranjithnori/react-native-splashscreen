@@ -116,7 +116,8 @@ public class RCTSplashScreen extends ReactContextBaseJavaModule {
                     splashDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                             WindowManager.LayoutParams.FLAG_FULLSCREEN);
                 }
-                splashDialog.setContentView(splashImageView);
+                splashDialog.setContentView(R.layout.splash_screen);
+//                splashDialog.setContentView(splashImageView);
                 splashDialog.setCancelable(false);
                 splashDialog.show();
             }
